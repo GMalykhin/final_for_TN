@@ -8,7 +8,6 @@
         <?php
             include ('incl/text.php');
             include ('incl/partner.php');
-            include ('incl/top.php');
             include ('incl/table.php');
             include ('incl/map.php'); 
         ?>   
