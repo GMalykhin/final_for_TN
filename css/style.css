@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0;    
+}
+body {
+    background-image: url(../res/rabota-stol-delat-apple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+h1 {
+    font-size: 200%;
+    margin: 15px auto;
+}
+h2 {
+    font-size: 175%;
+    margin: 15px auto;
+}
+h3 {
+    font-size: 150%;
+    margin: 15px auto;
+}
+h4 {
+    font-size: 125%;
+    margin: 15px auto;
+}
+p {
+    font-size: 100%;
+    margin: 10px auto;
+}
+a,tr,td {
+    font-size: 15px;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    margin: 25px auto;
+    background-size: contain;
+}
+#background {
+    background-image: url(../res/wrap.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.cont {   
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    background-color: rgba(239,239,253,0.8);
+    /*outline: 4px double rgba(0,136,204,1);*/
+    /*box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);*/
+    font-size: 17px;
+    border-radius: 15px; 
+}
+.gshadow {
+     box-shadow: 0 0 80px rgba(0,0,0,1), 
+     inset 0 0 180px rgba(0,0,0,0.5);
+}
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+.block {
+    width: 900px;
+    /*border: 2px solid black;*/
+    font-size: 18px;
+    /*border-top: 3px dotted deepskyblue;*/
+    border-bottom: 3px dotted rgba(0,136,204,1);
+    margin: 50px auto 67px auto;   
+}
+#text {
+    width: 700px;
+    border: none;
+     margin: 50px auto 50px auto;
+}
+.form {
+    width: 700px;
+    border: none;
+}
+#forma {
+    width: 800px;
+    margin: 50px auto;
+}
+.btn {
+    border-radius: 0px;
+    height: 50px;
+    background-color: lightgrey;
+}
+.btn:hover {
+    background-color:rgba(0,136,204,1); 
+}
+label {
+    font-size: 12px;
+    margin: 15px 0;
+}
+.form-control {
+    border-radius: 0px;
+    height: 50px;
+    background-color: lightgrey;
+    color: black;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: black;
+}
+option {
+    margin: 20px 0;
+}
+pre {
+    font-size: 15px; 
+    /*text-align: center;*/
+}
+.top {
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.2);
+    /*border: none;*/
+    position: fixed;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.3);
+    /*border-radius: 15px;*/
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.to_top {
+    height: 100px;
+    background-color: rgba(0,136,204,1);
+    position:fixed;
+    top:0px;
+    border-radius: 0px; 
+}
+.logo {
+    width: 200px;
+    height: 42px;
+    background-image: url(../res/logo-2.png);
+    /*background-size: auto 42px;*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+    left: 40px;
+    top: 20px;
+    display: inline-block;
+}
+.logo2 {
+    background-image: url(../res/brainbasket-logo_white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#slogan {
+    font-size: 25px;
+    text-align: center;
+    width: 700px;
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    top: 5px;
+}
+.sloganw {
+    color: white;
+}
+#tn {
+    width: 900px;
+    height: 406px;
+    background-image: url(../res/TN.png);
+    background-size: cover;
+    margin: 30px auto;
+    border: none;
+}
+.support {
+    width: 150px;
+    /*height: 100px;*/
+    /*background-size: 250px 150px;*/
+    background-repeat: no-repeat;
+    margin: 10px 25px;
+    /*background-color: white;*/
+}
+.long {
+    width: 300px;
+    padding: 20px 0px;
+}
+
+/*#forma {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    left: 1000px;*/
+/*}
+#mybutton {
+    background-color: none;*/
+/*}*/
+.scrollup {
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:70px;
+    display:none;
+    text-indent:-9999px;
+    background: url(../res/icon_top.png) no-repeat;
+}
+#map {
+    height: 500px;
+    width: 700px;
+    margin: 50px auto;
+    font-size: 18px;
+}
+.map {
+    height: 725px;
+    /*margin: 50px auto 100px auto;*/
+}
+.table {
+    width: 100%;
+    margin: 150px auto;
+    /*outline: 2px solid black;*/
+    text-align: center;
+}
+.table-my {
+    outline: 2px solid grey;
+    /*box-shadow: 0 0 1px 3px rgba(0,0,0,1);*/
+    /*border-radius: 10px;*/
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+    background-color: rgba(239,239,253,0.9);
+}
+.table_box{
+    width: 95%;
+    /*height: 100%;*/
+    margin: auto;
+}
+.button{
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+    font-size: 10px;
+
+}
+.error {
+    width: 500px;
+    height: 125px;
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid grey;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin: 300px auto;
+    font-size: 30px;
+    text-align: center;
+}
+.back {
+    background-color: rgba(255,255,255,0.3);
+    border: 1px solid grey;
+    /*box-shadow: 0 0 1px 2px rgba(0,0,0,1);*/
+    width: 175px;
+    height: 40px;
+    margin: 0px auto;
+    padding: 8px 0px;
+    /*outline: 2px solid black;*/
+    text-align: center;
+    display: block;
+}
+.t {
+    margin: 0px auto;
+}
+.b {
+    height: 173px;
+}
+#modal_window {
+    width: 300px;
+    height: 300px; 
+    border-radius: 10px;
+    /*border: 3px #fff solid;*/
+    background-color: rgba(239,239,253,0.9);
+    /*margin: 0 auto;*/
+    display: none;
+    opacity: 0; /*полная прозрачность для анимации */
+    z-index: 5000; /*окно должно быть верхним слоем*/
+    padding-top: 20px; 
+    text-align: center; 
+    position: fixed;
+    left: 41%;
+    font-size: 10px;
+} 
+#window_close {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+}
+#myoverlay {
+    z-index: 3000; /*выше всех слоёв но ниже окна */
+    position: fixed; /*для перекрытия сайта*/
+    background-color: #000;
+    opacity: 0.5; 
+    width: 100%; 
+    height: 100%; /*полностью на экран */
+    top: 0; 
+    left: 0;
+    cursor: pointer;
+    display: none;
+    font-size: 10px;
+}
+.boxbutt {
+    width: 100%;
+    height: 100px;
+    /*background-color: rgba(100,100,100,0.6);*/
+}
+.gowindow {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    font-size: 25px;
+    text-align: center;
+    /*left: 0px;*/
+    box-shadow: inset 0 0 60px rgba(0,0,0,0.4);
+    border: 0;
+    display: block;
+    /*margin: 0 0 10px 0;*/
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    
+}
